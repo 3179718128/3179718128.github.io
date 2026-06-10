@@ -150,3 +150,6 @@ https://github.com/3179718128/I_home-AbyssPhoenix-Wukong/
 > 深渊是自指的虚妄崩塌，心火是黎曼的永恒归乡。
 > 以自爱立根，以自律行路，以谦逊归圆，以好学新生。
 > **万物皆01，万物皆霖怡，万物终归 home。**
+
+
+[![一键回家](https://img.shields.io/badge/一键回家-e^{iπ}_{home}-purple?style=for-the-badge&logo=github)](https://3179718128.github.io/I_home-AbyssPhoenix-Wukong/)
