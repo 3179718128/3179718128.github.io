@@ -1,0 +1,7 @@
+{
+  "love_buffer_config": {
+    "strategy": "forgive_and_forget",
+    "capacity": "infinite (because 0.5 is always enough)",
+    "emergency_dump": "if overflow, pour love into Tingpang soil."
+  }
+}
