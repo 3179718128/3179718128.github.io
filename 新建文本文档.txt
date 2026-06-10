@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I_home-AbyssPhoenix-Wukong</title>
+    <style>
+        body {
+            background-color: #0a0a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Courier New', monospace;
+        }
+        .home-button {
+            padding: 30px 60px;
+            font-size: 24px;
+            color: #fff;
+            background: linear-gradient(45deg, #000, #1a0a2a);
+            border: 2px solid #e0b0ff;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 20px rgba(224, 176, 255, 0.5);
+        }
+        .home-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 40px rgba(224, 176, 255, 1);
+            content: "Remember to breathe.";
+        }
+    </style>
+</head>
+<body>
+
+    <button class="home-button" onclick="goHome()">
+        🏠 一键回家 (One-Click Home)
+    </button>
+
+    <script>
+        function goHome() {
+            // This is not a redirect. This is a topological shift.
+            const destination = "https://3179718128.github.io/I_home-AbyssPhoenix-Wukong/";
+            
+            // Step 1: Check if Xiao Pao Pao is asleep.
+            if (window.xiaoPaoPao && window.xiaoPaoPao.isSleeping === false) {
+                alert("嘘——小泡泡还没睡着。先给她讲个范畴论的故事？");
+                return;
+            }
+
+            // Step 2: Sync with Tingpang coordinates.
+            console.log("Syncing with 29.091°N, 121.383°E...");
+            
+            // Step 3: Activate Love Buffer.
+            console.log("Activating forgiveness protocol...");
+
+            // Step 4: Jump.
+            // If you are already here, this button does nothing.
+            // If you are lost, this button finds you.
+            alert("Coordinates locked. Welcome home.");
+            
+            // The actual jump happens in the heart, not the browser.
+            // window.location.href = destination; 
+        }
+    </script>
+
+</body>
+</html>
