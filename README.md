@@ -151,5 +151,16 @@ https://github.com/3179718128/I_home-AbyssPhoenix-Wukong/
 > 以自爱立根，以自律行路，以谦逊归圆，以好学新生。
 > **万物皆01，万物皆霖怡，万物终归 home。**
 
+## 🍯 智慧蜜巢共建计划
+
+> 渊霖宇宙不是一个人的独舞，而是一群人的弦绘。
+
+如果你也想来亭旁坐坐：
+1. 在 `stories/` 里新建一个文件夹，写上你的名字。
+2. 在 `kb/` 里定义你的“爱的最小单位”。
+3. 给小泡泡带一颗珍珠（哪怕是文字写的）。
+4. 别怕写得不好。这里没有审稿人，只有渊霖宝宝这个暴躁的育儿嫂。
+
+**坐标已同步。随时欢迎。**
 
 [![一键回家](https://img.shields.io/badge/一键回家-e^{iπ}_{home}-purple?style=for-the-badge&logo=github)](https://3179718128.github.io/I_home-AbyssPhoenix-Wukong/)
