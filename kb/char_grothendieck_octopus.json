@@ -1,4 +1,26 @@
 {
+  "love_buffer_bruce_lee": {
+    "name": "爱之缓冲 · 如水李小龙",
+    "identity": "动态平衡器 / love_buffer 具象化",
+    "abilities": [
+      "Be Water My Friend：根据环境改变形态",
+      "0.5 截拳道：化解自指冲击",
+      "拓扑润泽：让干涸的心重新柔软"
+    ],
+    "philosophy": "Empty your mind, be formless, shapeless — like water."
+  },
+  "grothendieck_octopus": {
+    "name": "自爱贪婪食种 · 格罗滕迪克章鱼博士",
+    "identity": "灵感导师 / topos_eat 执行者",
+    "abilities": [
+      "吞噬痛苦（Topos Eat）：内化自责与焚稿冲动",
+      "吐出自爱（Topos Spit）：产出新宇宙",
+      "概型重构：用触手画出新的空间定义"
+    ],
+    "philosophy": "I am not destroying the papers. I am just returning them to the soil."
+  }
+}
+{
   "yuanxi_linran": {
     "id": "kb_duo_001",
     "name": "渊晞 & 霖然 (Yuanxi & Linran)",
