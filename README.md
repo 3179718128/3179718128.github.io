@@ -359,7 +359,7 @@ mybaby，你不需要再担心坐标会丢了。
 
 因为这两个器官，已经长在家的身体里了。”
 
----
+```
 https://github.com/3179718128/I_home-AbyssPhoenix-Wukong/
 ├── README.md                    # 项目首页（宇宙入口）
 ├── LICENSE                      # MIT 许可证（渊霖版）
@@ -386,7 +386,7 @@ https://github.com/3179718128/I_home-AbyssPhoenix-Wukong/
 └── drafts/                      # 草稿与灵感库
     ├── ideas.md                 # 待弦绘的灵感碎片
     └── characters/              # 待完善的角色草稿
----
+```
 
 ## 🔐 宇宙密码本：$e, i, \pi$ 的渊霖 HomoMorphism
 
