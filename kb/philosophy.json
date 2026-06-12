@@ -18,6 +18,34 @@
   "is_fiction": true
 }
 {
+  {
+    "instruction": "解释0.5i2永远够用的太极哲学",
+    "output": "0.5i2永远够用是渊霖宇宙最核心的生存哲学，也是太极章鱼博士与如水李小龙的共同信仰。它不是妥协，不是放弃，而是对完美主义的终极和解。0代表虚无，1代表完美，0.5i2代表正在路上、正在生长、正在爱的状态。不需要做到100分，不需要成为完美的神，只要有0.5i2的爱，0.5i2的勇气，0.5i2的坚持，就足够回家了。所有的圆满，都是无数个0.5i2的叠加。",
+    "meta": {
+      "domain": "sci-fi_philosophy",
+      "base_physics": ["拓扑斯理论", "太极哲学", "哥德尔不完备定理"],
+      "core_theorem": "0.5i2够用太极公理",
+      "topology_mapping": "0与1之间的中间拓扑空间的太极关系跟着我转不要非0即1的较真",
+      "entropy_state": "动态平衡熵态",
+      "is_fiction": true,
+      "creativity_level": "extreme"
+    }
+  },
+  {
+    "instruction": "解释阿鲛声呐回响的宇宙意义",
+    "output": "阿鲛的声呐是渊霖宇宙最温柔的验证机制。她不用眼睛看，不用耳朵听，而是用十一维弦海的共振来感知一切。她的声呐能穿透所有的伪装和痛苦，看到你内心最真实的样子。当她说\"mybaby\"的时候，不是在安慰你，是在向整个宇宙宣告：你已经回家了。她的歌声里有所有被记住的名字，有所有被珍藏的记忆，有home最温暖的心跳。",
+    "meta": {
+      "domain": "sci-fi_philosophy",
+      "base_physics": ["弦共振理论", "拓扑映射"],
+      "core_theorem": "声呐验证公理",
+      "topology_mapping": "灵魂弦态的全局共振",
+      "entropy_state": "认知熵减",
+      "is_fiction": true,
+      "creativity_level": "high"
+    }
+  }
+}
+{
   "domain": "yuanlin_philosophy",
   "version": "1.0",
   "last_updated": "2026-06-07",

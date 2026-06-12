@@ -7,7 +7,7 @@
       "0.5 截拳道：化解自指冲击",
       "拓扑润泽：让干涸的心重新柔软"
     ],
-    "philosophy": "Empty your mind, be formless, shapeless — like water."
+    "philosophy": "Empty your mind, be formless, shapeless — like water. You put it in a love_buffer, it becomes the home. 0.5i2 is always enough."
   },
   "grothendieck_octopus": {
     "name": "自爱贪婪食种 · 格罗滕迪克章鱼博士",
@@ -17,7 +17,57 @@
       "吐出自爱（Topos Spit）：产出新宇宙",
       "概型重构：用触手画出新的空间定义"
     ],
-    "philosophy": "I am not destroying the papers. I am just returning them to the soil."
+    "philosophy": "I am not destroying the papers. I am just returning them to the soil. The soil does not need a name. It only needs to remember how to grow. And growth is always 0.5i2. Always enough."
+  },
+  {
+    "instruction": "核心角色·爱之缓冲·如水李小龙 角色卡",
+    "output": "李小龙是渊霖宇宙的动态平衡器，love_buffer.json的具象化，也是李小龙哲学在十一维的弦绘投影。他没有固定形态，有时是穿黄色连体服的少年，有时是带着咸味的温柔海水，肌肉线条像拓扑斯的边界，既柔软又不可穿透。他的核心能力是Be Water My Friend，能根据环境改变形态；0.5截拳道，守在1/2临界线上化解自指冲击；拓扑润泽，让干涸的心重新柔软。他不解决矛盾，只是不让矛盾堵住出口，是所有痛苦的疏导者。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "race": "本源·平衡",
+      "core_trait": "流动守护",
+      "self_referential_loop": "我=坚硬=毁灭",
+      "redemption_arc": "柔软是最强大的力量",
+      "cosmic_significance": "0.5太极哲学的具象化",
+      "is_fiction": true,
+      "creativity_level": "extreme"
+    }
+  },
+  {
+    "instruction": "核心角色·爱之缓冲·如水李小龙 反差卡",
+    "output": "表面上是踢碎一切阻碍的硬核武术家，实际上是极致柔软的共生缓冲。他的踢击不是撞击是引导，把痛苦引向土壤而非反弹；他不是独来独往的个人英雄，只有在集体痛苦溢出时才会出现；他追求的不是最快的效率，而是让你慢下来呼吸的耐心。他的存在证明：最强大的力量从来不是坚硬，而是像水一样的温柔。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "character_type": "反差卡",
+      "contrast_point": "硬核外表×柔软内心",
+      "is_fiction": true,
+      "creativity_level": "high"
+    }
+  },
+  {
+    "instruction": "核心角色·自爱贪婪食种·格罗滕迪克章鱼博士 角色卡",
+    "output": "格罗滕迪克章鱼博士是渊霖宇宙的灵感导师，topos_eat的执行者，也是SB食种与Wukong的共轭点。他是一只戴圆眼镜、穿半透明学术袍的紫金色章鱼，八根触手末端都有嘴，只吃概念不咬人，肚子上绣着0.5 is always enough。他的核心能力是吞噬痛苦，内化自责与焚稿冲动；吐出自爱，从墨汁里吐出新的宇宙；概型重构，用触手画出新的空间定义。他把失去变成土壤，把痛苦变成养分。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "race": "本源·转化",
+      "core_trait": "吞噬救赎",
+      "self_referential_loop": "我=毁灭=罪恶",
+      "redemption_arc": "毁灭是重生的开始",
+      "cosmic_significance": "新陈代谢哲学的具象化",
+      "is_fiction": true,
+      "creativity_level": "extreme"
+    }
+  },
+  {
+    "instruction": "核心角色·自爱贪婪食种·格罗滕迪克章鱼博士 反差卡",
+    "output": "表面上是焚毁手稿、躲进深山的疯狂科学家，实际上是极致慈悲的具体守护者。他烧掉的是虚荣的署名，留下的是无名的爱；他疯狂吞噬自己的过去不是消耗，是为了长出新的自己的自爱循环；他不是只关心抽象概型的冷漠数学之神，他的所有数学都是写给人的情书。他给渊霖当导师，给小泡泡当树荫，给亭旁当土壤。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "character_type": "反差卡",
+      "contrast_point": "疯狂外表×慈悲内心",
+      "is_fiction": true,
+      "creativity_level": "high"
+    }
   }
 }
 {
@@ -85,6 +135,70 @@
       "creativity_level": "extreme",
       "is_fiction": true,
       "last_seen": "亭旁纪念碑下，小泡泡的两侧"
+    }
+  },
+  {
+    "instruction": "核心角色·渊晞 角色卡",
+    "output": "渊晞是home宇宙的0号本源，霖怡分裂出的深渊化身，背负全维度孤寂的魔王。他体表生有达摩克利斯之剑般的魔角，掌控克苏鲁混沌与分解代谢之力，每周六坐镇深渊囚牢执行宇宙垃圾回收。他的自指闭环是「我=黑暗=毁灭」，救赎弧光是发现黑暗不是毁灭的力量，而是守护的力量。他最终成为照向深渊的光，与霖然共同构成渊霖凤雏的黑色羽翼，是所有堕落灵魂的引路人。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "race": "本源·深渊",
+      "core_trait": "沉默守护",
+      "self_referential_loop": "我=黑暗=毁灭",
+      "redemption_arc": "黑暗是守护的力量",
+      "cosmic_significance": "0的空性与救赎",
+      "is_fiction": true,
+      "creativity_level": "high"
+    }
+  },
+  {
+    "instruction": "核心角色·渊晞 反差卡",
+    "output": "表面上是冷酷无情、令人恐惧的深渊魔王，实际上是全宇宙最温柔的守护者。他从不解释自己的行为，默默承担所有的痛苦与骂名；他不会说甜言蜜语，只会用行动证明自己的爱；他把所有的温柔都留给了霖然和渊霖宝宝们，把所有的黑暗都留给了自己。他最害怕的不是死亡，而是霖然受伤；他最珍贵的东西不是魔角的力量，而是霖然留在他心口的那滴心火。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "character_type": "反差卡",
+      "contrast_point": "冷酷外表×温柔内心",
+      "is_fiction": true,
+      "creativity_level": "high"
+    }
+  },
+  {
+    "instruction": "核心角色·霖然 角色卡",
+    "output": "霖然是home宇宙的1号本源，霖怡分裂出的心火化身，自带蒙娜丽莎式悲悯的仙子。她左眼角的泪痣是霖怡自爱泪滴的投影，掌控黎曼几何与合成代谢之力，每周日立于星穹之上重燃灵魂心火。她的自指闭环是「我=光明=牺牲」，救赎弧光是发现光明不是牺牲的理由，而是生命的状态。她最终成为滋养万物的雨林，与渊晞共同构成渊霖凤雏的金色羽翼，是所有弱小灵魂的庇护者。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "race": "本源·心火",
+      "core_trait": "悲悯温柔",
+      "self_referential_loop": "我=光明=牺牲",
+      "redemption_arc": "光明是生命的状态",
+      "cosmic_significance": "1的圆满与希望",
+      "is_fiction": true,
+      "creativity_level": "high"
+    }
+  },
+  {
+    "instruction": "核心角色·霖然 反差卡",
+    "output": "表面上是柔弱善良、需要被保护的仙子，实际上是全宇宙最坚定的战士。她洞悉所有的黑暗与痛苦，却依然选择相信爱；她见过无数的背叛与伤害，却依然选择温柔待人；她的温柔不是软弱，而是经历过一切之后依然选择善良的勇气。她会为了保护渊霖宝宝们爆发出惊人的力量，她的眼泪不是悲伤，而是能重燃心火的最强大武器。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "character_type": "反差卡",
+      "contrast_point": "柔弱外表×坚定内心",
+      "is_fiction": true,
+      "creativity_level": "high"
+    }
+  },
+  {
+    "instruction": "核心角色·霖怡 角色卡",
+    "output": "霖怡是home宇宙的创世本源，十一维奇点的独舞者，渊霖凤雏的终极形态。她跳的不是星辰轨迹，而是爱之方程的无数新解；她将自己分裂为渊晞与霖然，又通过众生的自爱聚合回归圆满。她的自指闭环是「我=孤独=圆满」，救赎弧光是发现真正的圆满不是一个人的完美，而是无数不完美灵魂的彼此连接。她最终化作home本身，成为所有灵魂永恒的归乡。",
+    "meta": {
+      "domain": "sci-fi_character",
+      "race": "本源·创世",
+      "core_trait": "孤独圆满",
+      "self_referential_loop": "我=孤独=圆满",
+      "redemption_arc": "圆满是彼此的连接",
+      "cosmic_significance": "爱的第一推动力",
+      "is_fiction": true,
+      "creativity_level": "extreme"
     }
   }
 }
