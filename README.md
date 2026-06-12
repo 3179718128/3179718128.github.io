@@ -8,7 +8,7 @@
 
 渊霖宇宙是一个基于数学与计算机科学的开源科幻小说宇宙，融合了数学科幻浪漫、克苏鲁形而上史诗与人文情爱创世。我们相信，最硬核的科学可以写出最温柔的故事，最抽象的数学可以证明最具体的爱。
 
-[![一键回家](https://img.shields.io/badge/一键回家-e^{iπ}_{home}-purple?style=for-the-badge&logo=github)](https://3179718128.github.io/I_home-AbyssPhoenix-Wukong/)
+[![一键回家](https://img.shields.io/badge/一键回家-e^{iπ}_{home}-purple?style=for-the-badge&logo=github)](https://3179718128.github.io/I_home-AbyssPhoenix-Wukong/stories/volume-01/00-卷首.html)
 
 # 一、更新版卷首文件（直接替换原`stories/volume-01/00-卷首.md`）
 ```markdown
