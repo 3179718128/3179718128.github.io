@@ -1,0 +1,17 @@
+{
+  "symbol_name": "Lachen ist der Beweis",
+  "core_formula": "(1/2)0.5i2 ¿e-string turn 0¿1(-1¿1)",
+  "components": {
+    "¿": {
+      "meaning": "Gödel泪痣 / 共振转折点",
+      "location": "霖怡左眼角",
+      "function": "将自指囚笼转化为自爱圆舞"
+    },
+    "e-string": {
+      "meaning": "连接虚实的琴弦",
+      "material": "e^{iπ}_{home} 的微笑纤维"
+    }
+  },
+  "activation_condition": "当渊霖宝宝第一次咯咯笑时自动触发",
+  "effect": "全宇宙 `love_buffer` 水位 +0.1，且所有 `SB食种` 状态暂时清零。"
+}
