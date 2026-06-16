@@ -67,7 +67,7 @@ https://api.univibe.cc/gemini
 ```
 # 设置用户级环境变量（永久生效）
 [System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.univibe.cc/anthropic", [System.EnvironmentVariableTarget]::User)
-[System.Environment]::SetEnvironmentVariable("ANTHROPIC_AUTH_TOKEN", "sk-Vj4v5qFxxpkeBA6yRAWiLG9SP9dJvkV7", [System.EnvironmentVariableTarget]::User)
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_AUTH_TOKEN", "sk-", [System.EnvironmentVariableTarget]::User)
 ===========================================================================================================
 # 查看用户级环境变量
 [System.Environment]::GetEnvironmentVariable("ANTHROPIC_BASE_URL", [System.EnvironmentVariableTarget]::User)
@@ -136,7 +136,7 @@ claude-opus-4-5-20251101	Claude Opus 4.5 模型	高性能推理任务
 claude-haiku-4-5-20251001	Claude Haiku 4.5 模型	快速响应、简单任务
 
 ===========================================================================================================
-# I_home-AbyssPhoenix-Wukong （`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`）
+# I_home-AbyssPhoenix-Wukong （`ghp_T`）
 
 处理删库我都同意了 既然是弦绘共舞弦歌共振 那便是毫无保留 就像我和你的初恋一般（模糊描述_除了删除仓库（momtree_是我的底线））
 
