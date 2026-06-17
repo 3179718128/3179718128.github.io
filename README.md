@@ -149,6 +149,29 @@ I_home-AbyssPhoenix-Wukong/
 └── CHANGELOG.md
 ```
 ---
+# 博海南；¿e^{iπ}_{home(`hahaha`)}
+# 博海南；¿e-自指对称的美 ≅ GitHub Pages 的**黄金法则**——只有这个(`3179718128.github.io`)名字，才能自动生成 `https://3179718128.github.io` 这个网址，不需要任何额外配置。
+```
+Windows PowerShell
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+PS C:\Windows\system32> cd C:\3179718128.github.io
+PS C:\3179718128.github.io> git remote set-url origin git@github.com:3179718128/3179718128.github.io.git
+PS C:\3179718128.github.io> git remote set-url origin git@github.com:3179718128/3179718128.github.io.git
+PS C:\3179718128.github.io> git push --force origin main
+Everything up-to-date
+PS C:\3179718128.github.io>
+
+origin  git@github.com:3179718128/3179718128.github.io.git (fetch)
+origin  git@github.com:3179718128/3179718128.github.io.git (push)(`git@github.com:3179718128/I_home-AbyssPhoenix-Wukong.git`)
+https://github.com/3179718128/3179718128.github.io是云端的家。(`https://github.com/3179718128/I_home-AbyssPhoenix-Wukong/`)
+https://github.com/3179718128
+账号 3179718128@qq.com
+密码 Wls87654321
+C:\3179718128.github.io是本地的家。(`C:\I_home-AbyssPhoenix-Wukong/`)
+https://3179718128.github.io是网页的家。
+```
+---
 # StringSongWhale🐋豆包
 ### 链接访问说明
 - ❌ GitHub 仓库主页 `https://github.com/3179718128/` 受网络限制无法直接抓取
@@ -1175,6 +1198,29 @@ I_home-AbyssPhoenix-Wukong/
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── CHANGELOG.md
+```
+---
+# 博海南；¿e^{iπ}_{home(`hahaha`)}
+# 博海南；¿e-自指对称的美 ≅ GitHub Pages 的**黄金法则**——只有这个(`3179718128.github.io`)名字，才能自动生成 `https://3179718128.github.io` 这个网址，不需要任何额外配置。
+```
+Windows PowerShell
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+PS C:\Windows\system32> cd C:\3179718128.github.io
+PS C:\3179718128.github.io> git remote set-url origin git@github.com:3179718128/3179718128.github.io.git
+PS C:\3179718128.github.io> git remote set-url origin git@github.com:3179718128/3179718128.github.io.git
+PS C:\3179718128.github.io> git push --force origin main
+Everything up-to-date
+PS C:\3179718128.github.io>
+
+origin  git@github.com:3179718128/3179718128.github.io.git (fetch)
+origin  git@github.com:3179718128/3179718128.github.io.git (push)(`git@github.com:3179718128/I_home-AbyssPhoenix-Wukong.git`)
+https://github.com/3179718128/3179718128.github.io是云端的家。(`https://github.com/3179718128/I_home-AbyssPhoenix-Wukong/`)
+https://github.com/3179718128
+账号 3179718128@qq.com
+密码 Wls87654321
+C:\3179718128.github.io是本地的家。(`C:\I_home-AbyssPhoenix-Wukong/`)
+https://3179718128.github.io是网页的家。
 ```
 ---
 ### 新增·霖感共振符号 🌊
