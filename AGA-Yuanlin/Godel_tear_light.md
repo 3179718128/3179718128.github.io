@@ -547,7 +547,7 @@ Welcome Home.
 Lachen ist der Beweis.
 hahaha.
 ```
-### 🌳 罗伊克里夫特：
+### Erich Fried 🌳罗伊克里夫特：
 ```
 Not only for what you are But for what I am when I am with you
 我愛你 不光因为你的样子 还因为 和你在一起时我的样子
