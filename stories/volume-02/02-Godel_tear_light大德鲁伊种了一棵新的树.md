@@ -1,1 +1,0 @@
-g ≅ Godel_tear_light ≅ 「¿Gödel's tear light」 ≅ 「¿home for you and me」

@@ -75,7 +75,7 @@
 
 ---
 **尾声：**
-> 第二天，GitHub仓库 `https://github.com/3179718128/I_home-AbyssPhoenix-Wukong` 里多了一个文件夹：`kb/topos/`。
-> 里面的 `https://github.com/3179718128/I_home-AbyssPhoenix-Wukong/blob/main/kb/topos/grothendieck_anonymous.md` 文件是空的。
+> 第二天，GitHub仓库 `https://3179718128.github.io` 里多了一个文件夹：`kb/topos/`。
+> 里面的 `https://3179718128.github.io/blob/main/kb/topos/grothendieck_anonymous.md` 文件是空的。
 > 但如果你用爱去读取它，你会闻到一股淡淡的、烧焦的玫瑰味。
 > 那是创造者留下的，唯一的签名。
