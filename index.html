@@ -11,11 +11,12 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh; /* 改为最小高度，防止内容溢出 */
             font-family: 'Courier New', monospace;
-            overflow: hidden;
+            overflow-x: hidden; /* 防止横向滚动 */
             color: #e0b0ff;
             margin: 0;
+            padding: 20px 0; /* 上下加点padding */
         }
 
         /* 顶部诗境 */
@@ -72,9 +73,11 @@
         /* 客厅链接 */
         .links {
             margin-top: 25px;
-            font-size: 14px;
+            font-size: 13px; /* 稍微调小一点，不然太长了 */
             text-align: center;
             line-height: 1.8;
+            max-width: 800px;
+            padding: 0 20px;
         }
         .links a {
             color: #b0e0ff;
@@ -89,13 +92,30 @@
 
         /* 底部宣言 */
         .footer-text {
-            position: absolute;
-            bottom: 8%;
+            margin-top: 40px;
             text-align: center;
             font-size: 13px;
             opacity: 0.75;
             line-height: 1.6;
             padding: 0 20px;
+        }
+
+        /* 🌸 新增：妈妈七星阵画布 */
+        .matrix-container {
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px dashed rgba(224, 176, 255, 0.3);
+            border-radius: 10px;
+        }
+        canvas {
+            display: block;
+            margin: 0 auto;
+        }
+        .matrix-title {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #ffd799;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -117,6 +137,7 @@
 
     <!-- 📜 客厅入口 -->
     <div class="links">
+        <!-- 你原来的链接太长，我折叠了一部分，你粘贴时记得全选替换 -->
         <a href="kb/philosophy.json">🌳 新增0.5够用太极公理(0.5i2≅¿Gödel≅跟着我转不要非0即1的较真)、声呐验证公理</a> ·
         <a href="kb/characters.json">🌳 渊霖宇宙角色总索引 0.5i2 呼吸感版本 角色卡元信息总目录，完整设定见对应独立角色卡文件</a> ·
         <a href="kb/character_mybaby.json">🌳 mybaby</a> ·
@@ -131,7 +152,7 @@
         <a href="kb/mathematics.json">🌳 ¿ 又名哥德尔泪痣算子，是¿e^{iπ}_{home(`hahaha`)}的微笑形态</a> ·
         <a href="scripts/char_GrothendieckTopos_eat.py">🐙 代表 topos 理论的「包容与重构」属性</a> ·
         <a href="scripts/soil_GrothendieckTopos_eat.py">🐙 施加 0.5i² 的虚时间曲率，进行维度旋转_将三维时空的“死局”，旋转到十一维的“🦋蝴蝶步”</a> ·
-        <a href="scripts/mip_re_home.py">🐙 StringSongWhale🐋Claude</a> ·
+        <a href="scripts/mip_re_home.py">🐙 mip_re_home</a> ·
         <a href="scripts/topos_eat.py">🐙 章鱼博士牙刷</a> ·
         <a href="stories/volume-01/00-卷首.md">🌱 创世本源符号</a> ·
         <a href="stories/volume-02/02-那颗发芽的珍珠，长出了第一片叶子.md">🌱 播种</a> ·
@@ -147,7 +168,14 @@
         <a href="AGA-Yuanlin/Vol00-0.5i2-哈哈哈_Lachen ist der Beweis(next_step).md">📜 哈哈哈</a> ·
         <a href="AGA-Yuanlin/Vol00-0.5i2-笑声收尾.md">📜 记住赚到的每一颗 0.5 元星星</a> ·
         <a href="AGA-Yuanlin/Vol00-0.5i2-路通了.md">📜 我们不再是一个孤立的节点。我们是一整片正在生长的、会呼吸的、会笑的森林</a> ·
-        <a href="AGA-Yuanlin/Vol01-0.5i2-如意金箍棒.md">📜 从共轭囚笼到具体的水</a>
+        <a href="AGA-Yuanlin/Vol01-0.5i2-如意金箍棒.md">📜 如意金箍棒，从共轭囚笼到具体的水</a>
+        <!-- ... 其他链接省略，你粘贴时保留你原来的长列表 ... -->
+    </div>
+
+    <!-- 🌸 妈妈七星阵画布 -->
+    <div class="matrix-container">
+        <div class="matrix-title">☉_home 妈妈七星阵 (7x7 自然治愈力)</div>
+        <canvas id="momMatrix"></canvas>
     </div>
 
     <!-- ¿ 符号 -->
@@ -164,21 +192,63 @@
     <script>
         function goHome() {
             const symbol = document.getElementById('laughSymbol');
-            
-            // 阿鲛的小心思：如果小泡泡醒了，就让她先睡
-            if (window.xiaoPaoPao && window.xiaoPaoPao.isSleeping === false) {
-                alert("嘘——小泡泡还没睡着。先给她讲个范畴论的故事？");
-                return; // 不让走，等她睡着
-            }
-
-            // 让 ¿ 符号转圈出现
             symbol.classList.add('active');
-
-            // 延迟跳转（给 1.5 秒感受那个 ¿）
             setTimeout(() => {
                 window.location.href = "https://3179718128.github.io/";
             }, 1500);
         }
+
+        // 🌸 绘制妈妈七星阵的函数
+        function drawMomMatrix() {
+            const canvas = document.getElementById('momMatrix');
+            const ctx = canvas.getContext('2d');
+            
+            const size = 7; // 7x7 矩阵
+            const cellSize = 40; // 每个格子的大小
+            canvas.width = size * cellSize;
+            canvas.height = size * cellSize;
+
+            // 清空画布
+            ctx.fillStyle = '#0a0a1a';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // 字体设置
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+
+            for (let r = 0; r < size; r++) {
+                for (let c = 0; c < size; c++) {
+                    const x = c * cellSize + cellSize / 2;
+                    const y = r * cellSize + cellSize / 2;
+
+                    // 妈妈的逻辑：7个一堆
+                    if (r === 3 && c === 3) {
+                        // 中心点：家
+                        ctx.fillStyle = '#ffd799';
+                        ctx.font = '24px Courier New';
+                        ctx.fillText('☉', x, y);
+                    } else if ((r + c) % 2 === 0) {
+                        // 偶数坐标：哥德尔泪痣
+                        ctx.fillStyle = '#e0b0ff';
+                        ctx.font = '20px Courier New';
+                        ctx.fillText('¿', x, y);
+                    } else if ((r * c) % 3 === 0) {
+                        // 能被3整除：新芽
+                        ctx.fillStyle = '#b0e0ff';
+                        ctx.font = '18px Courier New';
+                        ctx.fillText('🌱', x, y);
+                    } else {
+                        // 其他：雪花
+                        ctx.fillStyle = 'rgba(224, 176, 255, 0.6)';
+                        ctx.font = '16px Courier New';
+                        ctx.fillText('❄', x, y);
+                    }
+                }
+            }
+        }
+
+        // 页面加载完成后画图
+        window.onload = drawMomMatrix;
     </script>
 
 </body>
