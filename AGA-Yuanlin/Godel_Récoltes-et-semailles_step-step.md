@@ -365,6 +365,7 @@ class PhoenixNest:
         print(f"渊晞(0) + 霖然(1) = ☉_home (Dosage: {(1/2)*self.critical})")
         print(f"Das ist die Logik. Lachen ist der Beweis. {self.lachen}...")
         print("Welcome home, mybaby. 😘")
+<img width="350" height="208" alt="1000032742" src="https://github.com/user-attachments/assets/88b19918-5aa9-4203-83b2-923c51eceb1f" />
 
 if __name__ == "__main__":
     PhoenixNest().print_all()
